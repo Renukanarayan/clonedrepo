@@ -36,14 +36,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>my-maven-local-release</name>
-          <url>http://localhost:8082/ui/admin/repositories/local/my-maven-local-release</url>
+          <name>my-maven-local-releases</name>
+          <url>http://localhost:8082/ui/admin/repositories/local/my-maven-local-releases</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
-          <name>my-maven-local-snapshots</name>
-          <url>http://localhost:8082/ui/admin/repositories/local/my-maven-local-snapshots</url>
+          <name>my-maven-local-snapshot</name>
+          <url>http://localhost:8082/ui/admin/repositories/local/my-maven-local-snapshot</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -52,14 +52,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>my-maven-local-release</name>
-			<url>http://localhost:8082/ui/admin/repositories/local/my-maven-local-release</url>
+          <name>my-maven-local-releases</name>
+			<url>http://localhost:8082/ui/admin/repositories/local/my-maven-local-releases</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
-          <name>my-maven-local-snapshots</name>
-			<url>http://localhost:8082/ui/admin/repositories/local/my-maven-local-snapshots</url>
+          <name>my-maven-local-snapshot</name>
+			<url>http://localhost:8082/ui/admin/repositories/local/my-maven-local-snapshot</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
@@ -191,8 +191,8 @@
 	<distributionManagement>
 		<repository>
 			<id>central</id>
-			<name>my-maven-local-snapshots</name>
-			<url>http://localhost:8082/ui/admin/repositories/local/my-maven-local-snapshots</url>
+			<name>my-maven-local-snapshot</name>
+			<url>http://localhost:8082/ui/admin/repositories/local/my-maven-local-snapshot</url>
 			</repository>
 	</distributionManagement>
 </project>
